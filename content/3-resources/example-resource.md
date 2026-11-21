@@ -7,4 +7,4 @@ tags:
 A resource is a topic of ongoing interest or reference material.
 
 - Read more: [PARA method](https://fortelabs.com/blog/para/)
-- Used by: [[Example Project]]
+- Used by: [[example-project|Example Project]]

@@ -6,11 +6,11 @@ tags:
   - workflow
 ---
 
-How this PARA vault becomes a website. See also [[Example Resource]] for the PARA method itself.
+How this PARA vault becomes a website. See also [[example-resource|Example Resource]] for the PARA method itself.
 
 ## Pieces
 
-- **Vault:** plain markdown notes in `quartz/content/`, organized as PARA (`Inbox`, `1 - Projects`, `2 - Areas`, `3 - Resources`, `4 - Archive`).
+- **Vault:** plain markdown notes in `quartz/content/`, organized as PARA (`inbox`, `1-projects`, `2-areas`, `3-resources`, `4-archive`).
 - **Quartz (v5):** static site generator that turns the notes into a website.
 - **GitHub repo:** `wyne4rest-afk/inbox-wyne-para` holds Quartz and the notes.
 - **GitHub Actions:** builds the site on every push to `main` (`.github/workflows/deploy.yml`).
@@ -36,8 +36,8 @@ How this PARA vault becomes a website. See also [[Example Resource]] for the PAR
 
 ## What is published
 
-- Everything in `content/` is built into the site, except `Inbox/` and `private/`. Both are listed in `ignorePatterns` in `quartz.config.yaml`.
-- The repo is public, so every markdown file in it, including `Inbox/`, is visible on GitHub. Only the website hides those folders. Keep truly private notes out of this repo.
+- Everything in `content/` is built into the site, except `inbox/` and `private/`. Both are listed in `ignorePatterns` in `quartz.config.yaml`.
+- The repo is public, so every markdown file in it, including `inbox/`, is visible on GitHub. Only the website hides those folders. Keep truly private notes out of this repo.
 
 ## Commands
 

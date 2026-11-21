@@ -9,7 +9,7 @@ configuration:
   locale: en-US
   baseUrl: wyne4rest-afk.github.io/inbox-wyne-para
   ignorePatterns:
-    - Inbox
+    - inbox
     - private
     - templates
     - .obsidian
